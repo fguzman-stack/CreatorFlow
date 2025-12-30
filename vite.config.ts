@@ -2,6 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import { copyFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   base: '/CreatorFlow/',
@@ -10,7 +13,14 @@ export default defineConfig({
     {
       name: 'copy-404',
       closeBundle() {
-        copyFileSync('public/404.html', 'dist/404.html');
+        try {
+          copyFileSync(
+            path.resolve(__dirname, 'public/404.html'),
+            path.resolve(__dirname, 'dist/404.html')
+          );
+        } catch (error) {
+          console.error('Error copying 404.html:', error);
+        }
       },
     },
   ],
