@@ -6,7 +6,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/CreatorFlow">
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/sales" element={<SalesPage />} />
