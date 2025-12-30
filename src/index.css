@@ -1,0 +1,279 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CreatorFlow Design System - Modern Creator-Focused Theme */
+
+@layer base {
+  :root {
+    /* Brand Colors - Modern Creator Palette */
+    --background: 0 0% 100%;
+    --foreground: 218 27% 18%;
+    --card: 0 0% 100%;
+    --card-foreground: 218 27% 18%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 218 27% 18%;
+    /* Primary - Deep Purple for Trust & Professionalism */
+    --primary: 258 84% 54%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 258 84% 70%;
+    --primary-dark: 258 84% 40%;
+    /* Secondary - Energetic Orange for CTAs */
+    --secondary: 32 95% 60%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 32 95% 75%;
+    --secondary-dark: 32 95% 45%;
+    /* Accent - Creative Teal */
+    --accent: 182 84% 56%;
+    --accent-foreground: 0 0% 100%;
+    /* Neutral Grays */
+    --muted: 220 13% 95%;
+    --muted-foreground: 218 15% 45%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 258 84% 54%;
+    /* Success & Error */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    /* Design System Variables */
+    --radius: 0.75rem;
+    --shadow-soft: 0 2px 20px -2px hsl(258 84% 54% / 0.1);
+    --shadow-medium: 0 4px 30px -4px hsl(258 84% 54% / 0.15);
+    --shadow-strong: 0 8px 40px -8px hsl(258 84% 54% / 0.2);
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-light)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(220 13% 98%) 100%);
+    /* Animation Variables */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 220 13% 12%; /* #181A20 */
+    --card-foreground: 0 0% 100%; /* blanco */
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+    --gradient-card: linear-gradient(145deg, hsl(220 13% 12%) 0%, hsl(220 13% 18%) 100%);
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+@layer components {
+  /* Hero Section */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+  .card-gradient {
+    background: var(--gradient-card);
+  }
+  /* CTA Button Variants */
+  .btn-primary {
+    @apply bg-primary hover:bg-primary/90 text-primary-foreground;
+    background: var(--gradient-primary);
+    box-shadow: var(--shadow-medium);
+    transition: var(--transition-smooth);
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-strong);
+  }
+  .btn-secondary {
+    @apply bg-secondary hover:bg-secondary/90 text-secondary-foreground;
+    background: var(--gradient-secondary);
+    box-shadow: var(--shadow-medium);
+    transition: var(--transition-smooth);
+  }
+  .btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-strong);
+  }
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground;
+    transition: var(--transition-smooth);
+  }
+  /* Cards & Testimonials */
+  .testimonial-card {
+    @apply p-6 rounded-2xl shadow-lg border border-border/50;
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-smooth);
+  }
+  .testimonial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-medium);
+  }
+  .feature-card {
+    @apply p-8 rounded-2xl border border-border/50;
+    background: var(--gradient-card);
+    transition: var(--transition-smooth);
+  }
+  .feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-soft);
+  }
+  /* Pricing Cards */
+  .pricing-card {
+    @apply p-8 rounded-2xl border-2 border-border;
+    background: var(--gradient-card);
+    transition: var(--transition-smooth);
+  }
+  .pricing-card.featured {
+    @apply border-primary;
+    box-shadow: var(--shadow-medium);
+  }
+  .pricing-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-soft);
+  }
+  /* Animations */
+  .fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+  .slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+  .bounce-in {
+    animation: bounceIn 0.6s ease-out;
+  }
+  /* Text Gradients */
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .text-gradient-secondary {
+    background: var(--gradient-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  /* Section Spacing */
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+}
+@layer utilities {
+  /* Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  /* Hover Effects */
+  .hover-lift {
+    transition: var(--transition-smooth);
+  }
+  .hover-lift:hover {
+    transform: translateY(-4px);
+  }
+  .hover-scale {
+    transition: var(--transition-smooth);
+  }
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+  /* Background Patterns */
+  .bg-dots {
+    background-image: radial-gradient(circle, hsl(var(--muted-foreground) / 0.15) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .bg-grid {
+    background-image: linear-gradient(hsl(var(--border)) 1px, transparent 1px),
+                      linear-gradient(90deg, hsl(var(--border)) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
+.gradient-placeholder::placeholder {
+  background: linear-gradient(90deg, #06b6d4, #6366f1, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+} 

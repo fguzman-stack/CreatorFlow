@@ -1,0 +1,420 @@
+{
+  "welcome": "¡Bienvenido a CreatorFlow!",
+  "login": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "button": "Entrar"
+  },
+  "register": {
+    "title": "Registrarse",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "button": "Registrar"
+  },
+  "language": "Idioma",
+  "logout": "Cerrar sesión",
+  "nav": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "course": "Curso",
+    "sales": "Oferta"
+  },
+  "index": {
+    "heroImageAlt": "Imagen principal",
+    "heroTitle": "Construye tu presencia digital",
+    "heroSubtitle": "Plantilla moderna, hermosa y enfocada en la conversión.",
+    "ctaMain": "¡Descarga mi guía gratis!",
+    "benefitsTitle": "¿Por qué elegir esta plantilla?",
+    "benefit1Title": "Fácil de personalizar",
+    "benefit1Desc": "Edita textos, colores e imágenes en minutos, sin complicaciones.",
+    "benefit2Title": "Diseño profesional",
+    "benefit2Desc": "Atractiva, responsive y optimizada para convertir en cualquier dispositivo.",
+    "benefit3Title": "Soporte y actualizaciones",
+    "benefit3Desc": "Recibe ayuda y actualizaciones regulares para tu proyecto.",
+    "testimonialsTitle": "Testimonios",
+    "faqTitle": "Preguntas frecuentes",
+    "ctaNewsletter": "Suscríbete al newsletter",
+    "heroImageSrc": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80",
+    "testimonial1": {
+      "name": "Anna Lopez",
+      "content": "¡Con esta plantilla lancé mi primer curso y vendí más de 100 copias en un mes!"
+    },
+    "testimonial2": {
+      "name": "Carlos Perez",
+      "content": "Súper fácil de usar y personalizar. ¡Altamente recomendada!"
+    },
+    "faq1": {
+      "question": "¿Necesito saber programar para usar la plantilla?",
+      "answer": "No, solo conocimientos básicos de React y edición de archivos."
+    },
+    "faq2": {
+      "question": "¿Puedo usarla para varios proyectos?",
+      "answer": "Sí, siempre que respetes la licencia MIT."
+    }
+  },
+  "blog": {
+    "title": "Blog de CreatorFlow",
+    "subtitle": "Estrategias, historias de éxito y herramientas para creadores que quieren monetizar su conocimiento y construir negocios digitales exitosos.",
+    "categories": [
+      "Todos", "Estrategias", "Historias de éxito", "Herramientas", "Mentalidad", "Marketing"
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "Cómo ganar $10K en 30 días con info productos",
+        "excerpt": "La estrategia exacta que usé para ganar mis primeros $10,000 vendiendo conocimiento online. Paso a paso con casos reales.",
+        "category": "Estrategias",
+        "author": "María García",
+        "date": "2024-01-15",
+        "readTime": "8 min",
+        "featured": true,
+        "image": "🚀"
+      },
+      {
+        "id": 2,
+        "title": "5 errores que matan tus ventas online",
+        "excerpt": "Los errores más comunes de los creadores y cómo evitarlos para maximizar tus conversiones.",
+        "category": "Estrategias",
+        "author": "Carlos Mendoza",
+        "date": "2024-01-12",
+        "readTime": "6 min",
+        "featured": false,
+        "image": "⚠️"
+      },
+      {
+        "id": 3,
+        "title": "Caso de éxito: De $0 a $50K en 90 días",
+        "excerpt": "Historia real de Ana, una consultora que convirtió su experiencia en un negocio digital de 6 cifras.",
+        "category": "Historias de éxito",
+        "author": "Ana Rodríguez",
+        "date": "2024-01-10",
+        "readTime": "12 min",
+        "featured": true,
+        "image": "📈"
+      },
+      {
+        "id": 4,
+        "title": "Las 10 herramientas esenciales para creadores 2024",
+        "excerpt": "Stack completo de herramientas para automatizar tu negocio digital y maximizar la productividad.",
+        "category": "Herramientas",
+        "author": "Roberto Silva",
+        "date": "2024-01-08",
+        "readTime": "10 min",
+        "featured": false,
+        "image": "🛠️"
+      },
+      {
+        "id": 5,
+        "title": "Mentalidad de un emprendedor digital exitoso",
+        "excerpt": "Los cambios de mentalidad que necesitas para pasar de empleado a emprendedor digital exitoso.",
+        "category": "Mentalidad",
+        "author": "María García",
+        "date": "2024-01-05",
+        "readTime": "7 min",
+        "featured": false,
+        "image": "🧠"
+      },
+      {
+        "id": 6,
+        "title": "Email marketing que convierte: Guía completa",
+        "excerpt": "Estrategias avanzadas de email marketing para convertir suscriptores en clientes recurrentes.",
+        "category": "Marketing",
+        "author": "Laura Pérez",
+        "date": "2024-01-03",
+        "readTime": "15 min",
+        "featured": false,
+        "image": "📧"
+      }
+    ],
+    "featuredTitle": "Artículos destacados",
+    "latestTitle": "Últimos artículos",
+    "readArticle": "Leer artículo",
+    "readMore": "Leer más",
+    "searchPlaceholder": "Buscar artículos...",
+    "newsletterTitle": "No te pierdas ningún artículo",
+    "newsletterSubtitle": "Recibe las estrategias más efectivas directo en tu email. Solo contenido de valor, sin spam.",
+    "newsletterPlaceholder": "Tu email...",
+    "subscribe": "Suscribirse"
+  },
+  "course": {
+    "heroBadge": "NUEVO CURSO 2024",
+    "heroTitle1": "Creator Academy",
+    "heroTitle2": "El curso definitivo para",
+    "heroTitle3": "Monetizar tu conocimiento",
+    "heroSubtitle": "Más de 19 horas de contenido premium, sistema paso a paso y casos reales. Todo lo que necesitas para construir un negocio digital de 6 cifras.",
+    "heroBtn1": "Ver clase gratis",
+    "heroBtn2": "Descargar temario",
+    "heroStat1": "Horas de video",
+    "heroStat2": "Lecciones",
+    "heroStat3": "Estudiantes",
+    "heroStat4": "★ Valoración",
+    "heroAuthor": "Maria Garcia",
+    "heroAuthorDesc": "Creadora y mentora de 7 cifras",
+    "heroFact1": "$2.3M generados en productos digitales",
+    "heroFact2": "+50,000 estudiantes formados",
+    "heroFact3": "Destacada en Forbes y Entrepreneur",
+    "featuresTitle": "¿Qué aprenderás?",
+    "featuresSubtitle": "Un sistema completo y probado para convertir tu conocimiento en un negocio digital rentable",
+    "features": [
+      { "icon": "zap", "title": "Mentalidad emprendedora", "description": "Desarrolla la mentalidad adecuada para el éxito digital" },
+      { "icon": "book", "title": "Creación de productos", "description": "Metodología paso a paso para productos que venden" },
+      { "icon": "message", "title": "Copywriting avanzado", "description": "Copy que convierte y maximiza tus ventas" },
+      { "icon": "calendar", "title": "Estrategias de lanzamiento", "description": "Genera $10K+ en 7 días con lanzamientos perfectos" },
+      { "icon": "users", "title": "Construcción de audiencia", "description": "Construye una audiencia fiel desde cero" },
+      { "icon": "award", "title": "Escalado", "description": "Automatiza y escala a 6-7 cifras" }
+    ],
+    "curriculumTitle": "Temario completo",
+    "curriculumSubtitle": "6 módulos intensivos con contenido actualizado 2024",
+    "modules": [
+      { "title": "Fundamentos de la economía de creadores", "duration": "2.5 horas", "lessons": 8, "description": "Establece una base sólida para tu negocio digital" },
+      { "title": "Investigación y validación de nicho", "duration": "3 horas", "lessons": 12, "description": "Encuentra tu mercado ideal y valida tu idea antes de crear" },
+      { "title": "Creación de productos digitales", "duration": "4 horas", "lessons": 15, "description": "Metodología paso a paso para crear productos que venden" },
+      { "title": "Copywriting y páginas de venta", "duration": "3.5 horas", "lessons": 14, "description": "Copy que convierte y maximiza tus ventas" },
+      { "title": "Estrategias de lanzamiento", "duration": "2.8 horas", "lessons": 10, "description": "Lanzamientos que generan $10K+ en menos de una semana" },
+      { "title": "Automatización y escalado", "duration": "3.2 horas", "lessons": 11, "description": "Sistemas automatizados para ingresos recurrentes" }
+    ],
+    "lessons": "lecciones",
+    "bonusesTitle": "Bonos exclusivos",
+    "bonusesSubtitle": "$788 de valor extra incluidos sin costo adicional",
+    "bonuses": [
+      { "title": "Pack de plantillas premium", "value": "$297", "description": "Más de 50 plantillas listas para usar y personalizar" },
+      { "title": "Casos de estudio exclusivos", "value": "$197", "description": "10 casos reales de alumnos que generaron $50K+" },
+      { "title": "Sesión grupal mensual", "value": "$97/mes", "description": "Q&A en vivo con acceso por 6 meses" },
+      { "title": "Comunidad privada VIP", "value": "$197", "description": "Networking con creadores de alto nivel" }
+    ],
+    "value": "Valor"
+  },
+  "sales": {
+    "heroBadge": "🔥 OFERTA LIMITADA - Solo 72 horas",
+    "heroTitle1": "El",
+    "heroTitle2": "Sistema Completo",
+    "heroTitle3": "para crear",
+    "heroTitle4": "Productos Digitales de $10K+",
+    "heroSubtitle": "Descubre las estrategias exactas que uso para generar más de $50K al mes vendiendo conocimiento. Sin relleno, solo estrategias probadas.",
+    "heroStat1": "+5,000 vendidos",
+    "heroStat2": "4.9/5 estrellas",
+    "heroStat3": "Resultados en 30 días",
+    "problemTitle": "¿Te suena familiar?",
+    "problemBeforeTitle": "❌ Antes (El Problema)",
+    "problemBefore": [
+      "Tienes conocimiento valioso pero no sabes cómo monetizarlo",
+      "Creas contenido gratis sin generar ingresos reales",
+      "No tienes claro qué producto crear",
+      "Te cuesta el copywriting y las ventas",
+      "Pierdes tiempo en estrategias que no funcionan"
+    ],
+    "problemAfterTitle": "✅ Después (La Solución)",
+    "problemAfter": [
+      "Sistema paso a paso claro para crear info productos",
+      "Fórmulas de copywriting que convierten al 5%+",
+      "Estrategias de lanzamiento de $10K en 7 días",
+      "Plantillas listas para usar y personalizar",
+      "Comunidad de apoyo y casos de éxito reales"
+    ],
+    "bonusesTitle": "Bonos exclusivos",
+    "bonusesSubtitle": "$788 de valor extra incluidos sin costo adicional",
+    "bonuses": [
+      { "title": "Pack de plantillas premium", "value": "$297", "description": "Más de 50 plantillas listas para usar y personalizar" },
+      { "title": "Casos de estudio exclusivos", "value": "$197", "description": "10 casos reales de alumnos que generaron $50K+" },
+      { "title": "Sesión grupal mensual", "value": "$97/mes", "description": "Q&A en vivo con acceso por 6 meses" },
+      { "title": "Comunidad privada VIP", "value": "$197", "description": "Networking con creadores de alto nivel" }
+    ],
+    "bonusesValue": "Valor",
+    "productTitle": "¿Qué incluye el sistema completo?",
+    "productSubtitle": "Más de 3 años condensados en un sistema paso a paso que te lleva de 0 a $10K+",
+    "modules": [
+      { "title": "Módulo 1: Mentalidad de creador", "description": "Cambia tu mentalidad de empleado a emprendedor digital" },
+      { "title": "Módulo 2: Investigación de mercado", "description": "Encuentra el nicho perfecto y valida tu idea en 48h" },
+      { "title": "Módulo 3: Creación de producto", "description": "Crea tu primer info producto en 2 semanas" },
+      { "title": "Módulo 4: Copywriting que convierte", "description": "Fórmulas probadas para páginas de venta de alto impacto" },
+      { "title": "Módulo 5: Estrategias de lanzamiento", "description": "Genera expectativa y vende antes de crear" },
+      { "title": "Módulo 6: Escalado y automatización", "description": "De $1K a $10K+ al mes con sistemas automatizados" }
+    ],
+    "productStat1": "$47,382",
+    "productStat2": "Generado por un alumno",
+    "productStat3": "en sus primeros 90 días",
+    "pricingTitle": "Elige tu plan de transformación",
+    "pricingSubtitle": "Precios especiales por tiempo limitado",
+    "guaranteeTitle": "Garantía de 60 días",
+    "guaranteeDesc": "Si no generas al menos $1,000 en 60 días, te devolvemos el 100% de tu pago.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Necesito experiencia previa en ventas?",
+        "a": "No. El sistema está diseñado para principiantes absolutos. Te guío paso a paso desde cero."
+      },
+      {
+        "q": "¿Cuánto tiempo tarda en verse resultados?",
+        "a": "La mayoría de los alumnos genera sus primeros $1,000 en 30-60 días siguiendo el sistema."
+      },
+      {
+        "q": "¿Funciona en cualquier nicho?",
+        "a": "Sí. Las estrategias son universales y se adaptan a cualquier área de conocimiento."
+      },
+      {
+        "q": "¿Y si no tengo audiencia?",
+        "a": "Te enseño a construir una audiencia desde cero y vender incluso a públicos fríos."
+      }
+    ],
+    "cta": {
+      "momentNowTitle": "Tu momento es AHORA",
+      "momentNowDesc": "Cada día que esperas es dinero que dejas en la mesa. Los que actúan HOY serán quienes dominen mañana.",
+      "stat1": "$10K+",
+      "stat1Desc": "Primer mes típico",
+      "stat2": "5,000+",
+      "stat2Desc": "Alumnos exitosos",
+      "stat3": "30 días",
+      "stat3Desc": "Para los primeros resultados",
+      "buyNow": "Comprar ahora - Oferta especial",
+      "offerBadge": "⏰ Solo quedan 24 horas para esta oferta especial"
+    },
+    "packages": [
+      {
+        "id": "basic",
+        "name": "Starter",
+        "features": [
+          "Guía completa de 150 páginas",
+          "Plantillas de copy probadas",
+          "Checklist de lanzamiento",
+          "Acceso a la comunidad",
+          "Soporte por email"
+        ],
+        "savings": "Ahorras ${{amount}}"
+      },
+      {
+        "id": "pro",
+        "name": "Pro Bundle",
+        "features": [
+          "Todo lo del plan Starter",
+          "Curso en video de más de 8 horas",
+          "Plantillas de diseño premium",
+          "Casos de estudio exclusivos",
+          "Sesión estratégica 1 a 1",
+          "Garantía de 60 días"
+        ],
+        "savings": "Ahorras ${{amount}}",
+        "popular": "MÁS POPULAR"
+      },
+      {
+        "id": "vip",
+        "name": "VIP Mastermind",
+        "features": [
+          "Todo lo del Pro Bundle",
+          "Grupo VIP privado",
+          "Masterclasses mensuales en vivo",
+          "Revisión personalizada de proyectos",
+          "Acceso anticipado a nuevos productos",
+          "Networking con creadores top"
+        ],
+        "savings": "Ahorras ${{amount}}"
+      }
+    ],
+    "selectPlan": "Elegir plan"
+  },
+  "blogPost": {
+    "backToBlog": "Volver al blog",
+    "share": "Compartir",
+    "save": "Guardar",
+    "caseStudy": "Caso de estudio",
+    "mistakesToAvoid": "Errores a evitar",
+    "yourActionPlan": "Tu plan de acción en 30 días",
+    "toolsTitle": "Herramientas esenciales",
+    "conclusionTitle": "Conclusión",
+    "authorName": "María García",
+    "authorDesc": "Fundadora de CreatorFlow y experta en monetización digital. Ha ayudado a más de 10,000 creadores a convertir su conocimiento en negocios rentables.",
+    "viewMoreArticles": "Ver más artículos",
+    "likeArticleTitle": "¿Te gustó este artículo?",
+    "likeArticleDesc": "Únete a miles de creadores que aplican estas estrategias para construir negocios digitales rentables.",
+    "viewProducts": "Ver productos",
+    "subscribeNewsletter": "Suscribirse al newsletter",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "post1": {
+      "category": "Estrategias",
+      "title": "Cómo ganar $10K en 30 días con info productos",
+      "subtitle": "La estrategia exacta que usé para ganar mis primeros $10,000 vendiendo conocimiento online",
+      "author": "María García",
+      "date": "2024-01-15",
+      "readTime": "8 min",
+      "tags": [
+        "Info productos",
+        "Estrategias",
+        "Lanzamientos",
+        "Email marketing"
+      ],
+      "related": [
+        {
+          "title": "5 errores que matan tus ventas online",
+          "excerpt": "Los errores más comunes de los creadores y cómo evitarlos para maximizar tus conversiones.",
+          "readTime": "6 min"
+        },
+        {
+          "title": "Caso de éxito: De $0 a $50K en 90 días",
+          "excerpt": "Historia real de Ana, una consultora que convirtió su experiencia en un negocio digital de 6 cifras.",
+          "readTime": "12 min"
+        }
+      ],
+      "content": [
+        { "type": "p", "text": "Hace exactamente 18 meses, era consultora freelance y apenas ganaba $2,000 al mes. Hoy, mi negocio digital genera más de $50,000 mensuales de forma constante. En este artículo te muestro cómo hacer tus primeros $10K en 30 días vendiendo tu conocimiento." },
+        { "type": "h2", "text": "El problema que todos enfrentamos" },
+        { "type": "p", "text": "La mayoría de expertos y consultores tienen un problema: venden su tiempo por dinero. Esto crea un techo de ingresos y los mantiene atrapados en un ciclo de trabajo constante sin verdadera libertad financiera." },
+        { "type": "p", "text": "Yo estuve en esa misma situación. Trabajaba más de 60 horas a la semana, tenía clientes exigentes y mis ingresos dependían totalmente de mi presencia física. Era momento de un cambio radical." },
+        { "type": "h2", "text": "La estrategia de $10K en 30 días" },
+        { "type": "p", "text": "El sistema que desarrollé se basa en 4 pilares fundamentales:" },
+        { "type": "ol", "items": [
+          "Validación rápida de producto: Antes de crear cualquier producto, debes validar que haya demanda real. Así es mi proceso de 48 horas:",
+          "Creación acelerada: Una vez validado, tienes 7 días para crear tu MVP (Producto Mínimo Viable). No tiene que ser perfecto, solo debe resolver el problema principal.",
+          "Copy que convierte: El 80% del éxito está en cómo presentas tu producto. Uso la fórmula PAS (Problema-Agitación-Solución) más elementos de urgencia y prueba social.",
+          "Lanzamiento estructurado: Mi secuencia de lanzamiento de 14 días convierte entre 8-12%: Días 1-3: Contenido de valor (calentamiento), Días 4-7: Revelación del problema, Días 8-11: Presentación de la solución, Días 12-14: Cierre con urgencia."
+        ]},
+        { "type": "h2", "text": "Caso de estudio real" },
+        { "type": "p", "text": "Te cuento sobre mi primer producto que generó $12,847 en 30 días:" },
+        { "type": "ul", "items": [
+          "Producto: Guía para conseguir clientes premium en LinkedIn",
+          "Precio: $97",
+          "Audiencia: 1,200 suscriptores de email",
+          "Conversión: 8.2%"
+        ]},
+        { "type": "p", "text": "La clave fue identificar que mi audiencia tenía un problema específico: conseguir clientes que pagaran tarifas premium. En vez de crear un curso general, hice una solución súper específica." },
+        { "type": "h2", "text": "Las cifras exactas" },
+        { "type": "ul", "items": [
+          "Inversión total: $347 (herramientas + anuncios)",
+          "Leads generados: 847",
+          "Conversión de email: 23%",
+          "Ventas totales: 132 unidades",
+          "Ingresos brutos: $12,847",
+          "Beneficio neto: $12,500",
+          "ROI: 3,600%"
+        ]},
+        { "type": "h2", "text": "Errores a evitar" },
+        { "type": "ul", "items": [
+          "Perfeccionismo: Esperar hasta que el producto esté 'perfecto'",
+          "Precio bajo: Subestimar el valor de tu conocimiento",
+          "Audiencia fría: Vender sin haber generado confianza antes",
+          "Falta de urgencia: No dar razones para comprar HOY"
+        ]},
+        { "type": "h2", "text": "Tu plan de acción en 30 días" },
+        { "type": "ul", "items": [
+          "Semana 1: Validación y planeación",
+          "Semana 2: Crear el producto MVP",
+          "Semana 3: Desarrollar el copy y la página de ventas",
+          "Semana 4: Lanzar y optimizar"
+        ]},
+        { "type": "h2", "text": "Herramientas esenciales" },
+        { "type": "ul", "items": [
+          "Landing pages: Leadpages",
+          "Email marketing: ConvertKit",
+          "Pagos: Stripe",
+          "Analítica: Google Analytics + Hotjar",
+          "Creatividades: Canva Pro"
+        ]},
+        { "type": "h2", "text": "Conclusión" },
+        { "type": "p", "text": "Ganar $10K en 30 días no es suerte, es un sistema. Si tienes conocimiento valioso y sigues esta metodología exacta, puedes replicar (y superar) estos resultados." },
+        { "type": "p", "text": "El secreto está en ejecutar rápido, validar pronto y enfocarte en resolver problemas específicos de tu audiencia." },
+        { "type": "p", "text": "¿Estás listo para convertir tu conocimiento en tu primer ingreso de $10K+?" }
+      ]
+    }
+  }
+} 

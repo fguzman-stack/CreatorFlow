@@ -1,0 +1,415 @@
+{
+  "welcome": "Welcome to CreatorFlow!",
+  "login": {
+    "title": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "button": "Login"
+  },
+  "register": {
+    "title": "Sign Up",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "button": "Register"
+  },
+  "language": "Language",
+  "logout": "Logout",
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "course": "Course",
+    "sales": "Sales"
+  },
+  "index": {
+    "heroImageAlt": "Hero background",
+    "heroTitle": "Build your digital presence",
+    "heroSubtitle": "Modern, beautiful and conversion-focused template.",
+    "ctaMain": "Get my free guide!",
+    "benefitsTitle": "Why choose this template?",
+    "benefit1Title": "Easy to customize",
+    "benefit1Desc": "Edit texts, colors, and images in minutes, no hassle.",
+    "benefit2Title": "Professional design",
+    "benefit2Desc": "Attractive, responsive, and optimized for conversion on any device.",
+    "benefit3Title": "Support & updates",
+    "benefit3Desc": "Get help and regular updates for your project.",
+    "testimonialsTitle": "Testimonials",
+    "faqTitle": "Frequently Asked Questions",
+    "ctaNewsletter": "Subscribe to the newsletter",
+    "heroImageSrc": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80",
+    "testimonial1": {
+      "name": "Anna Lopez",
+      "content": "With this template I launched my first course and sold over 100 copies in a month!"
+    },
+    "testimonial2": {
+      "name": "Carlos Perez",
+      "content": "Super easy to use and customize. Highly recommended!"
+    },
+    "faq1": {
+      "question": "Do I need to know how to code to use the template?",
+      "answer": "No, just basic React and file editing skills."
+    },
+    "faq2": {
+      "question": "Can I use it for multiple projects?",
+      "answer": "Yes, as long as you respect the MIT license."
+    }
+  },
+  "blog": {
+    "title": "CreatorFlow Blog",
+    "subtitle": "Strategies, success stories, and tools for creators who want to monetize their knowledge and build successful digital businesses.",
+    "categories": [
+      "All", "Strategies", "Success Stories", "Tools", "Mindset", "Marketing"
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "How to Make $10K in 30 Days with Info Products",
+        "excerpt": "The exact strategy I used to make my first $10,000 selling knowledge online. Step by step with real cases.",
+        "category": "Strategies",
+        "author": "María García",
+        "date": "2024-01-15",
+        "readTime": "8 min",
+        "featured": true,
+        "image": "🚀"
+      },
+      {
+        "id": 2,
+        "title": "5 Mistakes That Kill Your Online Sales",
+        "excerpt": "The most common mistakes creators make and how to avoid them to maximize your conversions.",
+        "category": "Strategies",
+        "author": "Carlos Mendoza",
+        "date": "2024-01-12",
+        "readTime": "6 min",
+        "featured": false,
+        "image": "⚠️"
+      },
+      {
+        "id": 3,
+        "title": "Success Story: From $0 to $50K in 90 Days",
+        "excerpt": "Real story of Ana, a consultant who turned her expertise into a 6-figure digital business.",
+        "category": "Success Stories",
+        "author": "Ana Rodríguez",
+        "date": "2024-01-10",
+        "readTime": "12 min",
+        "featured": true,
+        "image": "📈"
+      },
+      {
+        "id": 4,
+        "title": "The 10 Essential Tools for Creators 2024",
+        "excerpt": "Complete stack of tools to automate your digital business and maximize productivity.",
+        "category": "Tools",
+        "author": "Roberto Silva",
+        "date": "2024-01-08",
+        "readTime": "10 min",
+        "featured": false,
+        "image": "🛠️"
+      },
+      {
+        "id": 5,
+        "title": "Mindset of a Successful Digital Entrepreneur",
+        "excerpt": "The mindset shifts you need to make to go from employee to successful digital entrepreneur.",
+        "category": "Mindset",
+        "author": "María García",
+        "date": "2024-01-05",
+        "readTime": "7 min",
+        "featured": false,
+        "image": "🧠"
+      },
+      {
+        "id": 6,
+        "title": "Email Marketing That Converts: Complete Guide",
+        "excerpt": "Advanced email marketing strategies to turn subscribers into repeat customers.",
+        "category": "Marketing",
+        "author": "Laura Pérez",
+        "date": "2024-01-03",
+        "readTime": "15 min",
+        "featured": false,
+        "image": "📧"
+      }
+    ],
+    "featuredTitle": "Featured Articles",
+    "latestTitle": "Latest Articles",
+    "readArticle": "Read Article",
+    "readMore": "Read more",
+    "searchPlaceholder": "Search articles...",
+    "newsletterTitle": "Don't Miss Any Article",
+    "newsletterSubtitle": "Get the most effective strategies straight to your email. Only valuable content, no spam.",
+    "newsletterPlaceholder": "Your email...",
+    "subscribe": "Subscribe"
+  },
+  "course": {
+    "heroBadge": "NEW COURSE 2024",
+    "heroTitle1": "Creator Academy",
+    "heroTitle2": "The Ultimate Course to",
+    "heroTitle3": "Monetize Your Knowledge",
+    "heroSubtitle": "19+ hours of premium content, step-by-step system, and real cases. Everything you need to build a 6-figure digital business.",
+    "heroBtn1": "Watch Free Lesson",
+    "heroBtn2": "Download Curriculum",
+    "heroStat1": "Video hours",
+    "heroStat2": "Lessons",
+    "heroStat3": "Students",
+    "heroStat4": "★ Rating",
+    "heroAuthor": "Maria Garcia",
+    "heroAuthorDesc": "7-Figure Creator & Mentor",
+    "heroFact1": "$2.3M generated in digital products",
+    "heroFact2": "+50,000 students trained",
+    "heroFact3": "Featured in Forbes and Entrepreneur",
+    "featuresTitle": "What You'll Learn",
+    "featuresSubtitle": "A complete and proven system to turn your knowledge into a profitable digital business",
+    "features": [
+      { "icon": "zap", "title": "Entrepreneurial Mindset", "description": "Develop the right mindset for digital success" },
+      { "icon": "book", "title": "Product Creation", "description": "Step-by-step methodology for products that sell" },
+      { "icon": "message", "title": "Advanced Copywriting", "description": "Copy that converts and maximizes your sales" },
+      { "icon": "calendar", "title": "Launch Strategies", "description": "Generate $10K+ in 7 days with perfect launches" },
+      { "icon": "users", "title": "Audience Building", "description": "Build a loyal audience from scratch" },
+      { "icon": "award", "title": "Scaling", "description": "Automate and scale to 6-7 figures" }
+    ],
+    "curriculumTitle": "Full Curriculum",
+    "curriculumSubtitle": "6 intensive modules with updated 2024 content",
+    "modules": [
+      { "title": "Creator Economy Fundamentals", "duration": "2.5 hours", "lessons": 8, "description": "Establish a solid foundation for your digital business" },
+      { "title": "Niche Research & Validation", "duration": "3 hours", "lessons": 12, "description": "Find your ideal market and validate your idea before creating" },
+      { "title": "Digital Product Creation", "duration": "4 hours", "lessons": 15, "description": "Step-by-step methodology to create products that sell" },
+      { "title": "Copywriting & Sales Pages", "duration": "3.5 hours", "lessons": 14, "description": "Write copy that converts and maximizes your sales" },
+      { "title": "Launch Strategies", "duration": "2.8 hours", "lessons": 10, "description": "Launches that generate $10K+ in less than a week" },
+      { "title": "Automation & Scaling", "duration": "3.2 hours", "lessons": 11, "description": "Automated systems for recurring income" }
+    ],
+    "lessons": "lessons",
+    "bonusesTitle": "Exclusive Bonuses",
+    "bonusesSubtitle": "$788 extra value included at no additional cost",
+    "bonuses": [
+      { "title": "Premium Templates Pack", "value": "$297", "description": "Over 50 ready-to-use templates to customize and use" },
+      { "title": "Exclusive Case Studies", "value": "$197", "description": "10 real student cases who generated $50K+" },
+      { "title": "Monthly Group Session", "value": "$97/month", "description": "Live Q&A with 6 months access" },
+      { "title": "VIP Private Community", "value": "$197", "description": "Networking with high-level creators" }
+    ],
+    "value": "Value"
+  },
+  "sales": {
+    "heroBadge": "🔥 LIMITED OFFER - Only 72 hours",
+    "heroTitle1": "The",
+    "heroTitle2": "Complete System",
+    "heroTitle3": "to Create",
+    "heroTitle4": "$10K+ Digital Products",
+    "heroSubtitle": "Discover the exact strategies I use to generate $50K+ per month selling knowledge. No fluff, just proven strategies.",
+    "heroStat1": "+5,000 sold",
+    "heroStat2": "4.9/5 stars",
+    "heroStat3": "Results in 30 days",
+    "problemTitle": "Does This Sound Familiar?",
+    "problemBeforeTitle": "❌ Before (The Problem)",
+    "problemBefore": [
+      "You have valuable knowledge but don't know how to monetize it",
+      "You create free content without generating real income",
+      "You're not clear on what product to create",
+      "You struggle with copywriting and sales",
+      "You waste time on strategies that don't work"
+    ],
+    "problemAfterTitle": "✅ After (The Solution)",
+    "problemAfter": [
+      "Clear step-by-step system to create info products",
+      "Copywriting formulas that convert at 5%+",
+      "$10K launch strategies in 7 days",
+      "Ready-to-use and customizable templates",
+      "Supportive community and real success stories"
+    ],
+    "bonusesTitle": "Exclusive Bonuses",
+    "bonusesSubtitle": "$788 extra value included at no additional cost",
+    "bonuses": [
+      { "title": "Premium Templates Pack", "value": "$297", "description": "Over 50 ready-to-use templates to customize and use" },
+      { "title": "Exclusive Case Studies", "value": "$197", "description": "10 real student cases who generated $50K+" },
+      { "title": "Monthly Group Session", "value": "$97/month", "description": "Live Q&A with 6 months access" },
+      { "title": "VIP Private Community", "value": "$197", "description": "Networking with high-level creators" }
+    ],
+    "bonusesValue": "Value",
+    "productTitle": "What's Included in the Complete System",
+    "productSubtitle": "Over 3 years condensed into a step-by-step system that takes you from 0 to $10K+",
+    "modules": [
+      { "title": "Module 1: Creator Mindset", "description": "Shift your mindset from employee to digital entrepreneur" },
+      { "title": "Module 2: Market Research", "description": "Find the perfect niche and validate your idea in 48h" },
+      { "title": "Module 3: Product Creation", "description": "Create your first info product in 2 weeks" },
+      { "title": "Module 4: High-Converting Copywriting", "description": "Proven formulas for high-impact sales pages" },
+      { "title": "Module 5: Launch Strategies", "description": "Build anticipation and sell before you create" },
+      { "title": "Module 6: Scaling and Automation", "description": "From $1K to $10K+ per month with automated systems" }
+    ],
+    "productStat1": "$47,382",
+    "productStat2": "Generated by a student",
+    "productStat3": "in their first 90 days",
+    "pricingTitle": "Choose Your Transformation Plan",
+    "pricingSubtitle": "Special prices for a limited time",
+    "guaranteeTitle": "60-Day Guarantee",
+    "guaranteeDesc": "If you don't generate at least $1,000 in 60 days, we will refund your full payment.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq": [
+      {
+        "q": "Do I need previous sales experience?",
+        "a": "No. The system is designed for complete beginners. I guide you step by step from scratch."
+      },
+      {
+        "q": "How long does it take to see results?",
+        "a": "Most students generate their first $1,000 in 30-60 days following the system."
+      },
+      {
+        "q": "Does it work in any niche?",
+        "a": "Yes. The strategies are universal and adapt to any area of knowledge."
+      },
+      {
+        "q": "What if I don't have an audience?",
+        "a": "I teach you how to build an audience from scratch and sell to cold audiences."
+      }
+    ],
+    "cta": {
+      "momentNowTitle": "Your Moment is NOW",
+      "momentNowDesc": "Every day you wait is money left on the table. Those who act TODAY will be the ones who dominate tomorrow.",
+      "stat1": "$10K+",
+      "stat1Desc": "Typical first month",
+      "stat2": "5,000+",
+      "stat2Desc": "Successful students",
+      "stat3": "30 days",
+      "stat3Desc": "For first results",
+      "buyNow": "Buy Now - Special Offer",
+      "offerBadge": "⏰ Only 24 hours left for this special offer"
+    },
+    "packages": [
+      {
+        "id": "basic",
+        "name": "Starter",
+        "features": [
+          "Complete 150-page guide",
+          "Proven copy templates",
+          "Launch checklist",
+          "Community access",
+          "Email support"
+        ],
+        "savings": "You save ${{amount}}"
+      },
+      {
+        "id": "pro",
+        "name": "Pro Bundle",
+        "features": [
+          "Everything in the Starter plan",
+          "8+ hour video course",
+          "Premium design templates",
+          "Exclusive case studies",
+          "1-on-1 strategy session",
+          "60-day guarantee"
+        ],
+        "savings": "You save ${{amount}}",
+        "popular": "MOST POPULAR"
+      },
+      {
+        "id": "vip",
+        "name": "VIP Mastermind",
+        "features": [
+          "Everything in the Pro Bundle",
+          "Private VIP group",
+          "Monthly live masterclasses",
+          "Personalized project review",
+          "Early access to new products",
+          "Networking with top creators"
+        ],
+        "savings": "You save ${{amount}}"
+      }
+    ],
+    "selectPlan": "Select Plan"
+  },
+  "blogPost": {
+    "backToBlog": "Back to Blog",
+    "share": "Share",
+    "save": "Save",
+    "caseStudy": "Case Study",
+    "mistakesToAvoid": "Mistakes to Avoid",
+    "yourActionPlan": "Your 30-Day Action Plan",
+    "toolsTitle": "Essential Tools",
+    "conclusionTitle": "Conclusion",
+    "post1": {
+      "category": "Strategies",
+      "title": "How to Make $10K in 30 Days with Info Products",
+      "subtitle": "The exact strategy I used to make my first $10,000 selling knowledge online",
+      "author": "María García",
+      "date": "2024-01-15",
+      "readTime": "8 min",
+      "tags": ["Info Products", "Strategies", "Launches", "Email Marketing"],
+      "content": [
+        { "type": "p", "text": "Exactly 18 months ago, I was a freelance consultant earning barely $2,000 a month. Today, my digital business consistently generates over $50,000 per month. In this article, I'm going to show you exactly how to make your first $10K in 30 days selling your knowledge." },
+        { "type": "h2", "text": "The Problem We All Face" },
+        { "type": "p", "text": "Most experts and consultants have a problem: they're selling their time for money. This creates an income ceiling and keeps them trapped in a constant work cycle without real financial freedom." },
+        { "type": "p", "text": "I was in that same situation. I worked 60+ hours a week, had demanding clients, and my income depended entirely on my physical presence. It was time for a radical change." },
+        { "type": "h2", "text": "The $10K in 30 Days Strategy" },
+        { "type": "p", "text": "The system I developed is based on 4 fundamental pillars:" },
+        { "type": "ol", "items": [
+          "Rapid Product Validation: Before creating any product, you need to validate that there is real demand. Here is my 48-hour process:",
+          "Accelerated Creation: Once validated, you have 7 days to create your MVP (Minimum Viable Product). It doesn't need to be perfect, it just needs to solve the core problem.",
+          "Copy That Converts: 80% of success is in how you present your product. I use the PAS formula (Problem-Agitate-Solution) plus elements of urgency and social proof.",
+          "Structured Launch: My 14-day launch sequence that converts at 8-12%: Days 1-3: Value content (warming up), Days 4-7: Problem revelation, Days 8-11: Solution presentation, Days 12-14: Closing with urgency."
+        ]},
+        { "type": "h2", "text": "Real Case Study" },
+        { "type": "p", "text": "Let me tell you about my first product that generated $12,847 in 30 days:" },
+        { "type": "ul", "items": [
+          "Product: Guide to Getting Premium Clients on LinkedIn",
+          "Price: $97",
+          "Audience: 1,200 email subscribers",
+          "Conversion: 8.2%"
+        ]},
+        { "type": "p", "text": "The magic was in identifying that my audience had a specific problem: getting clients who paid premium rates. Instead of creating a general course, I created a super specific solution." },
+        { "type": "h2", "text": "The Exact Numbers" },
+        { "type": "ul", "items": [
+          "Total investment: $347 (tools + ads)",
+          "Leads generated: 847",
+          "Email conversion: 23%",
+          "Total sales: 132 units",
+          "Gross revenue: $12,847",
+          "Net profit: $12,500",
+          "ROI: 3,600%"
+        ]},
+        { "type": "h2", "text": "Mistakes to Avoid" },
+        { "type": "ul", "items": [
+          "Perfectionism: Waiting until the product is 'perfect'",
+          "Low price: Underestimating the value of your knowledge",
+          "Cold audience: Selling without having built trust first",
+          "Lack of urgency: Not giving reasons to buy TODAY"
+        ]},
+        { "type": "h2", "text": "Your 30-Day Action Plan" },
+        { "type": "ul", "items": [
+          "Week 1: Validation and planning",
+          "Week 2: Create the MVP product",
+          "Week 3: Develop copy and sales page",
+          "Week 4: Launch and optimize"
+        ]},
+        { "type": "h2", "text": "Essential Tools" },
+        { "type": "ul", "items": [
+          "Landing pages: Leadpages",
+          "Email marketing: ConvertKit",
+          "Payments: Stripe",
+          "Analytics: Google Analytics + Hotjar",
+          "Creatives: Canva Pro"
+        ]},
+        { "type": "h2", "text": "Conclusion" },
+        { "type": "p", "text": "Making $10K in 30 days is not luck, it's a system. If you have valuable knowledge and follow this exact methodology, you can replicate (and surpass) these results." },
+        { "type": "p", "text": "The secret is in fast execution, early validation, and laser focus on solving specific problems for your audience." },
+        { "type": "p", "text": "Are you ready to turn your knowledge into your first $10K+ income stream?" }
+      ]
+    },
+    "authorName": "María García",
+    "authorDesc": "Founder of CreatorFlow and expert in digital monetization. She has helped over 10,000 creators turn their knowledge into profitable businesses.",
+    "viewMoreArticles": "View more articles",
+    "likeArticleTitle": "Did You Like This Article?",
+    "likeArticleDesc": "Join thousands of creators who are applying these strategies to build profitable digital businesses.",
+    "viewProducts": "View Products",
+    "subscribeNewsletter": "Subscribe to the Newsletter",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read more",
+    "related": [
+      {
+        "title": "5 Mistakes That Kill Your Online Sales",
+        "excerpt": "The most common mistakes creators make and how to avoid them to maximize your conversions.",
+        "readTime": "6 min"
+      },
+      {
+        "title": "Success Story: From $0 to $50K in 90 Days",
+        "excerpt": "Real story of Ana, a consultant who turned her expertise into a 6-figure digital business.",
+        "readTime": "12 min"
+      }
+    ]
+  }
+} 
